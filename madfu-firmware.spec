@@ -7,6 +7,7 @@ Group:		System/Kernel and hardware
 
 Source:		http://prdownloads.sourceforge.net/xbox-linux/%{name}-%{version}.tar.bz2
 Url:		http://usb-midi-fw.sourceforge.net/
+BuildRoot:	%_tmppath/%name-%version-root
 Exclusivearch:	%{ix86}
 
 %description
