@@ -1,7 +1,7 @@
 Summary:	Firmware loader for M-Audio/Midiman usb sound devices
 Name:		madfu-firmware
 Version:	0.5
-Release:	 %mkrel 1
+Release:	 %mkrel 3
 License:	GPL
 Group:		System/Kernel and hardware		
 
