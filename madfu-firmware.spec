@@ -46,3 +46,30 @@ rm -fr %buildroot
 %{_sysconfdir}/hotplug/usb/maudio_dfu
 %config(noreplace) %{_sysconfdir}/hotplug/usb/maudio_dfu.usermap
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 0.5-5mdv2011.0
++ Revision: 620287
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.5-4mdv2010.0
++ Revision: 429889
+- rebuild
+
+* Mon Jul 28 2008 Thierry Vignaud <tv@mandriva.org> 0.5-3mdv2009.0
++ Revision: 251643
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 0.5-1mdv2008.1
++ Revision: 129594
+- kill re-definition of %%buildroot on Pixel's request
+- use %%mkrel
+- import madfu-firmware
+
+
+* Mon Apr 11 2005 Stew Benedict <sbenedict@mandrakesoft.com>  0.5-1mdk
+- first Mandriva release
