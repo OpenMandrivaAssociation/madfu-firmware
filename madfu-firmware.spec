@@ -10,6 +10,11 @@ Url:		https://usb-midi-fw.sourceforge.net/
 BuildRoot:	%_tmppath/%name-%version-root
 Exclusivearch:	%{ix86}
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 This package allows you to use the USB Audio interfaces from M-Audio/
 Midiman with Linux.  It sets up an hotplugging script to load the
